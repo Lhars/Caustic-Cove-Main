@@ -1,8 +1,8 @@
 /datum/patron/old_god
 	name = "Psydon"
-	domain = "God of Ontological Reality"
-	desc = "The true God of everything, Psydon is maximally good - He created humen in his image to live in Psydonia, and defended the Azure Basin by sending the COMET SYON to defeat the rampaging archdemon."
-	worshippers = "Fanatics and Nostalgists"
+	domain = "The Original God"
+	desc = "The first True God, Psydon is the creator of all things. He is believed dead by the Church of the Successors."
+	worshippers = "Heretics, Inquisitors, and re-emerging believers"
 	associated_faith = /datum/faith/old_god
 	t0 = /obj/effect/proc_holder/spell/invoked/lesser_heal
 	confess_lines = list(

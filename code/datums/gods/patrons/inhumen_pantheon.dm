@@ -12,8 +12,8 @@
 /datum/patron/inhumen/zizo
 	name = "Zizo"
 	domain = "Advancement, Hubris, Left Hand Magicks"
-	desc = "Snow Elf turned God- banished by the Ten for spreading unholy magicks and forbidden sciences. Her craft taught mortals to bend the natural world to their will, but destroyed the Snow Elf race.."
-	worshippers = "Necromancers, Warlocks, and the Undead"
+	desc = "A long time ago, a single woman achieved the impossible: she challenged God, and won."
+	worshippers = "Necromancers, The Power-hungry,  Cultists and Heretics of all kinds"
 	mob_traits = list(TRAIT_CABAL)
 	t1 = /obj/effect/proc_holder/spell/invoked/projectile/profane/miracle
 	t2 = /obj/effect/proc_holder/spell/invoked/raise_lesser_undead/miracle
@@ -21,13 +21,14 @@
 	confess_lines = list(
 		"PRAISE ZIZO!",
 		"LONG LIVE ZIZO!",
-		"ZIZO IS QUEEN!",
+		"ZIZO IS THE GOD QUEEN!",
+		"ZIZO HAS PREVAILED!"
 	)
 
 /datum/patron/inhumen/graggar
 	name = "Graggar"
-	domain = "God of Conquest, War, Murder, Pillaging"
-	desc = "Orc turned deity, said by the Holy Ecclesial to have been blessed by Ravox himself. He took his blessings to rampage and tear down the Old Ten. Though some Graggarites might care for 'honor', most do not- what matters are results, and victory at any cost."
+	domain = "God of Conquest, Murder and Pillaging"
+	desc = "The Heartless One, Graggar teaches that might makes right and created goblins in his image."
 	worshippers = "Prisoners, Murderers and the Cruel"
 	mob_traits = list(TRAIT_HORDE, TRAIT_ORGAN_EATER)
 	confess_lines = list(
@@ -39,8 +40,8 @@
 /datum/patron/inhumen/matthios
 	name = "Matthios"
 	domain = "God of Robbery, Redistribution of Wealth, and Commerce"
-	desc = "The Man who stole fire from the Underworld and gave it in exchange for worship; the first Transaction, cutting a hole in the firmament and flooding ontological reality with the fact of Wealth. Take from the wealthy, give to the worthless, empower."
-	worshippers = "Highwaymen, Robbers, Downtrodden Peasants, Merchants"
+	desc = "Man turned God, Matthios taught man that only through theft and popular revolts can social woes be alleviated."
+	worshippers = "Highwaymen, Robbers and Downtrodden Peasants"
 	mob_traits = list(TRAIT_COMMIE)
 	t1 = /obj/effect/proc_holder/spell/invoked/appraise
 	t2 = /obj/effect/proc_holder/spell/invoked/transact
@@ -55,7 +56,7 @@
 /datum/patron/inhumen/baotha
 	name = "Baotha"
 	domain = "Goddess of Degeneracy, Debauchery and Addiction"
-	desc = "Eora's crueler half, made be from her one true love having been unfaithful. Filled with bitterness, she separated from Eora in spirit and spiraled into a dark hole of crippling hedonism. She teaches her ilk to place their trust in no one, and do only as they please."
+	desc = "Woman turned God, Baotha taught man that life is too short to care for the consequences of their pleasures and leads them to peculiar vices and perversions."
 	worshippers = "Perverts, Gamblers, Drunkards, and Bards"
 	mob_traits = list(TRAIT_DEPRAVED, TRAIT_CRACKHEAD)
 	confess_lines = list(
